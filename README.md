@@ -7,7 +7,7 @@ PCB is designed for MX style key switches. Current top plate only supports MX st
 
 [QMK](https://github.com/qmk/qmk_firmwarehttp:// "QMK") and [Vial](https://github.com/vial-kb/vial-qmk "Vial") firmwares has very barebones key mapping. Good for quick testing.
 
-![](https://raw.githubusercontent.com/Squalius-cephalus/silakka44/main/image.png)
+![](https://raw.githubusercontent.com/Squalius-cephalus/silakka44/main/silakka44.png)
 
 ### Bill of materials
 - 42x MX compatible key switches
