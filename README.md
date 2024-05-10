@@ -1,23 +1,31 @@
-# Silli18
-RP2040 based macropad, which uses QMK firmware with Vial support.
 
-![](https://raw.githubusercontent.com/Squalius-cephalus/silli18/main/silli18.png)
+# Silakka44
 
-## Bill of materials
+Silakka44 is 44-key column staggered split keyboard. PCB has hotswap sockets.
 
- - 1 x PCB
- - 1 x Pin compatible Raspberry Pi Pico
- - 1 x 3D printed bottom plate
- - 1 x 3D printed top plate
- - 2 x EC11 Rotary encoders
- - 16 x MX style mechanical switches
- - 16 x MX compatible keycaps
- - 8 x M2 4mm bolt
- - 8 x M2 brass inserts 
- - 8x Rubber feet
+PCB is designed for MX style key switches. Current top plate only supports MX style switches. 5-pin switches is supported.
 
-## TODO
+[QMK](https://github.com/qmk/qmk_firmwarehttp:// "QMK") and [Vial](https://github.com/vial-kb/vial-qmk "Vial") firmwares has very barebones key mapping. Good for quick testing.
 
- 1. Make build guide
+![](https://raw.githubusercontent.com/Squalius-cephalus/silakka44/main/image.png)
+
+### Bill of materials
+- 42x MX compatible key switches
+- 40x 1u keycaps
+- 2x 1.5u keycap
+- 42x Kailh Hotswap Sockets
+- 2x Raspberry Pi Pico or pin compatible clone
+- 2x PJ320D audio sockets
+- 2x EC11 encoders
+- 1x TRRS audio cable
+- 12x M2 Heat set inserts, length 2mm(OD3.2mm)
+- 12x M2 bolts, length 4mm
+- 2x PCB
+- 2x Bottom plate
+- 2x Top plate
 
 PCB design uses footprints from [ScottoKeebs](https://github.com/joe-scotto/scottokeebs/tree/main/Extras/ScottoKicad "ScottoKeebs") and [kbd library.](https://github.com/foostan/kbd "kbd library.")
+
+### TODO
+1. Build guide
+2. Redo traces
